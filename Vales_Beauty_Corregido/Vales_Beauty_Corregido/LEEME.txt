@@ -1,0 +1,26 @@
+VALE'S BEAUTY — SITIO CORREGIDO
+
+ARCHIVO PARA ABRIR:
+- index.html
+
+CAMBIOS REALIZADOS:
+- Se eliminó completamente el login.
+- Se corrigieron la estructura HTML, el carrusel, la navegación y el diseño móvil.
+- Se agregó un apartado de Contacto que abre WhatsApp.
+- El carrito ahora permite aumentar, disminuir y eliminar productos.
+- El botón "Pedir por WhatsApp" genera el resumen del pedido automáticamente.
+- Se agregaron UIcons de Flaticon mediante su CDN oficial y la atribución en el pie de página.
+- Todas las fotografías del sitio están incluidas localmente en assets/img.
+
+CONTACTO CONFIGURADO:
+- WhatsApp: +504 9876-5432
+- Correo: valesbeauty@gmail.com
+- Ubicación: La Ceiba, Atlántida, Honduras
+
+PARA CAMBIAR EL NÚMERO DE WHATSAPP:
+1. Abra assets/js/app.js.
+2. Cambie la constante WHATSAPP_NUMBER.
+3. También reemplace 50498765432 en los archivos HTML.
+
+NOTA:
+Los iconos de Flaticon se cargan desde internet. El resto del sitio puede abrirse localmente.

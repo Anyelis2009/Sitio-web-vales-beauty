@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carrito de Vale's Beauty para preparar y enviar pedidos por WhatsApp.">
+  <title>Carrito | Vale's Beauty</title>
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="carrito">
+  
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Vale's Beauty, inicio">
+      <img src="assets/img/logo.jpeg" alt="Logo de Vale's Beauty">
+      <span class="brand-text"><strong>Vale's Beauty</strong><small>Belleza, moda y cuidado personal</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menú">
+      <i class="fi fi-rr-menu-burger" aria-hidden="true"></i>
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="index.html" data-nav="inicio"><i class="fi fi-rr-home" aria-hidden="true"></i>Inicio</a></li>
+<li><a href="catalogo.html" data-nav="catalogo"><i class="fi fi-rr-shopping-bag" aria-hidden="true"></i>Catálogo</a></li>
+<li><a href="ofrecemos.html" data-nav="ofrecemos"><i class="fi fi-rr-sparkles" aria-hidden="true"></i>Ofrecemos</a></li>
+<li><a href="nosotros.html" data-nav="nosotros"><i class="fi fi-rr-users-alt" aria-hidden="true"></i>Nosotros</a></li>
+<li><a href="contacto.html" data-nav="contacto"><i class="fi fi-rr-phone-call" aria-hidden="true"></i>Contacto</a></li>
+      <li><a class="cart-link" href="carrito.html" data-nav="carrito"><i class="fi fi-rr-shopping-cart" aria-hidden="true"></i>Carrito <span class="cart-badge">0</span></a></li>
+    </ul>
+  </div>
+</header>
+  <main id="contenido">
+<section class="page-hero"><div class="container"><span class="eyebrow">Tu selección</span><h1>Carrito de compras</h1><p>Revisa los productos y envía el pedido completo por WhatsApp. No necesitas crear una cuenta ni iniciar sesión.</p></div></section>
+<section class="section" style="padding-top:38px"><div class="container">
+  <div class="cart-empty" id="cart-empty" hidden><i class="fi fi-rr-shopping-cart" aria-hidden="true"></i><h2>Tu carrito está vacío</h2><p>Agrega productos del catálogo para preparar tu pedido.</p><a class="btn btn-primary" href="catalogo.html"><i class="fi fi-rr-shopping-bag" aria-hidden="true"></i>Ir al catálogo</a></div>
+  <div class="cart-layout" id="cart-content" hidden>
+    <div class="cart-box"><div id="cart-items"></div></div>
+    <aside class="summary-box"><h2>Resumen</h2><div class="summary-row"><span>Subtotal</span><strong id="subtotal">L 0.00</strong></div><div class="summary-row"><span>Entrega</span><span>A coordinar</span></div><div class="summary-row total"><span>Total</span><strong id="total">L 0.00</strong></div><div class="summary-actions"><button class="btn btn-whatsapp" id="checkout-whatsapp" type="button"><i class="fi fi-brands-whatsapp" aria-hidden="true"></i>Pedir por WhatsApp</button><button class="btn btn-danger" id="clear-cart" type="button"><i class="fi fi-rr-trash" aria-hidden="true"></i>Vaciar carrito</button></div><p style="color:var(--muted);font-size:.84rem;margin-bottom:0">El pedido se confirma cuando Vale's Beauty responda por WhatsApp.</p></aside>
+  </div>
+</div></section>
+</main>
+  
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.jpeg" alt="Logo de Vale's Beauty">
+        <span class="brand-text"><strong style="color:#fff">Vale's Beauty</strong><small style="color:rgba(255,255,255,.6)">Tu estilo, tu esencia</small></span>
+      </a>
+      <p>Productos de belleza, moda y cuidado personal seleccionados para ayudarte a sentirte cómoda, segura y con estilo.</p>
+    </div>
+    <div>
+      <h2 class="footer-title">Explorar</h2>
+      <ul class="footer-links">
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="ofrecemos.html">Lo que ofrecemos</a></li>
+        <li><a href="nosotros.html">Sobre nosotros</a></li>
+        <li><a href="carrito.html">Mi carrito</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Contacto</h2>
+      <ul class="footer-links">
+        <li><a href="https://wa.me/50498765432?text=Hola%20Vale%27s%20Beauty" target="_blank" rel="noopener">WhatsApp: +504 9876-5432</a></li>
+        <li><a href="mailto:valesbeauty@gmail.com">valesbeauty@gmail.com</a></li>
+        <li>La Ceiba, Atlántida, Honduras</li>
+      </ul>
+      <div class="social-links" style="margin-top:16px">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fi fi-brands-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fi fi-brands-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok"><i class="fi fi-brands-tik-tok" aria-hidden="true"></i></a>
+        <a href="https://wa.me/50498765432?text=Hola%20Vale%27s%20Beauty" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fi fi-brands-whatsapp" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span class="current-year">2026</span> Vale's Beauty. Todos los derechos reservados.</span>
+    <span>Íconos: <a href="https://www.flaticon.com/uicons" target="_blank" rel="noopener">UIcons by Flaticon</a></span>
+  </div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"><i class="fi fi-rr-check-circle" aria-hidden="true"></i><span class="toast-text">Listo</span></div>
+<a class="whatsapp-float" href="https://wa.me/50498765432?text=Hola%20Vale%27s%20Beauty%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp"><i class="fi fi-brands-whatsapp" aria-hidden="true"></i></a>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
